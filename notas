@@ -43,7 +43,7 @@
 
         // Boolean
         boolean bool = true;
-        System.out.println("El rango de un booleano es verdadero y falso"); 
+        System.out.println("El rango de un boolean es verdadero y falso"); 
         System.out.println("El boolean es: " + bool);
         Boolean booleanObject;
          
