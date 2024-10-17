@@ -39,11 +39,11 @@
         System.out.println("Las cadenas pueden contener caracteres"); 
 
         // Caracter
-        char caracter; // Declaracion de variable
+        char caracter;
         System.out.println("El rango de un char es 0 a 65,535"); 
           
 
         // Objeto
-        Object objeto; // Declaracion de variable
+        Object objeto; 
     }
 }
