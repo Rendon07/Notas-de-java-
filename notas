@@ -40,7 +40,7 @@
 
         // Caracter
         char caracter;
-        System.out.println("El rango de un char es 0 a 65,535"); 
+        System.out.println("Combinación de caracteres"); 
           
 
         // Objeto
