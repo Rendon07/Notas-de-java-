@@ -3,44 +3,63 @@
  class HelloWorld {
     public static void main(String[] args) {
         // Enteros
-        byte enteroMuyPequeno; 
+        byte enteroMuyPequeno = 10;
         System.out.println("El rango de un byte es -128 a 127"); 
+        System.out.println("El byte es: " + enteroMuyPequeno);
         Byte enteroMuyPequenoObject;
-
-        short enteroPequenno; 
+        
+         
+        short enteroPequenno = 40;
         System.out.println("El rango de un short es -32,768 a 32,767"); 
+         System.out.println("El short es: " + enteroPequenno);
         Short enteroPequennoObject;
+    
 
-        int entera; 
+        int entera = 500; 
         System.out.println("El rango de un int es -2,147,483,648 a 2,147,483,647"); 
+        System.out.println("El int es: " + entera);
+        Integer entero;
+        
         
 
-        long enteroGrande;
+        long enteroGrande = 7990;
         System.out.println("El rango de un long es -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807"); 
+        System.out.println("El long es: " + enteroGrande);
          Long enteroGrandeObject;
-
+        
         // Decimal
-        float decimal; 
+        float decimal = 490;
         System.out.println("El rango de un float es 1.4e-045 a 3.4e+038");
+        System.out.println("El float es: " + decimal);
         Float decimalObject;
         
+        
 
-        double decimal12; 
+        double decimal12 = 30;
         System.out.println("El rango de un double es 4.9e-324 a 1.8e+308"); 
+        System.out.println("El double es: " + decimal12);
         Double decimal2Object;
+       
 
         // Boolean
-        boolean bool; 
+        boolean bool = true;
         System.out.println("El rango de un booleano es verdadero y falso"); 
+        System.out.println("El boolean es: " + bool);
         Boolean booleanObject;
+         
 
         // Caracteres
-        String cadena; 
+        String cadena = "Hola";
         System.out.println("Las cadenas pueden contener caracteres"); 
+        System.out.println("El string cadena es:" + cadena);
+        
 
         // Caracter
-        char caracter;
-        System.out.println("Combinación de caracteres"); 
+        char caracter = 'A';
+        System.out.println("Alfanumericos"); 
+        System.out.println("El char es: " + caracter); 
+        Character caracaterObject;
+       
           
 
         // Objeto
