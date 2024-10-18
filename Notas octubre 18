@@ -1,3 +1,4 @@
+Condicion if
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
 import java.util.Scanner;
@@ -13,4 +14,69 @@ class HelloWorld {
             System.out.print("Es falso");
        
         }
+
+
+
+While
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Ingrese un numero negativo para salir o un positivo para seguir: ");
+        int numero = teclado.nextInt();
+        while(numero >= 0){
+           System.out.print("Ingresa un numero negativo para salir o uno positivo para seguir: ");
+           numero = teclado.nextInt();
+           
+        }
        
+    }
+}
+
+
+
+Do While
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int numero;
+        do{
+            System.out.print("Escribe un numero: ");
+            numero = teclado.nextInt();
+            if(numero <= 0){
+                System.out.println("El numero es negativo: ");
+            } else { 
+                System.out.println("El numero es positivo: ");
+            }
+        }while(numero >= 0);
+  }
+}
+
+
+
+
+for 
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Escribe el # de veces que se repite: ");
+        int numero = teclado.nextInt();
+        for (int i = 1; i <= numero; i++){
+            System.out.println(i);
+        }
+        
+       
+   
+  }
+}
