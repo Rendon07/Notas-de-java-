@@ -1,0 +1,99 @@
+trabajo mio
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+import java.util.Random;
+import java.util.*;
+
+public class RandomArrayValues {
+    public static void main(String[] args) {
+        
+        int n = 3;
+       
+
+        
+        int[] randomArray = new int[n];
+        int matriz[][] = new int[5][5];
+
+       
+        Random random = new Random();
+
+      
+        for (int i = 0; i < n; i++) {
+            
+           
+            randomArray[i] = random.nextInt(11); 
+           
+        }
+
+        
+        System.out.println("El valor asignado aleatoriamente es: ");
+        for (int value : randomArray) {
+            System.out.print(value+" ");
+            
+        //imprimir matriz
+        System.out.println("MATRIZ ALEATORIA \n");
+        String imprimir="";
+        for (int i=0;i<matriz.length;i++);
+        {
+            for (int j=0;j<matriz.length;j++);
+        {
+            imprimir=imprimir+"| "+matriz[i][j];
+        }
+            imprimir=imprimir+"| \n";
+        } System.out.println(imprimir);
+        }
+    }
+}
+
+
+
+trabajo profesor 
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Random;
+class HelloWorld {
+    public static void main(String[] args) {
+        Random random = new Random();
+        int n = random.nextInt(9) + 2;
+        int m = random.nextInt(9) + 2;
+        
+        System.out.println("La matriz es de " + n + " x " + m);
+        
+        int[][] matriz = new int[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                matriz[i][j] = 0;
+        }
+        
+    }
+    System.out.println("Matriz inicial: ");
+    for (int[] fila : matriz) {
+        for (int valor : fila) {
+            System.out.print(valor + " ");
+        }
+        System.out.println();
+    }
+    System.out.println();
+    if (n == m) {
+        for (int i = 0; i < n; i++) {
+            matriz[i][i] = random.nextInt(100);
+            
+        }
+    } else {
+        for (int i = 0; i < n && i < m; i++) {
+        for (int j = i + 1; j < m; j++) {
+            matriz[i][j] = random.nextInt(100);
+        
+        }
+        }
+    }
+    System.out.println("Matriz despues de la operacion: ");
+    for (int[] fila : matriz) {
+        for (int valor : fila) {
+            System.out.print(valor + " ");
+        }
+        System.out.println();
+    }
+   }
+  }
